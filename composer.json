@@ -11,7 +11,8 @@
     ],
     "require": {
         "php": "^7.1",
-        "ext-curl" : "*"
+        "ext-curl" : "*",
+        "ext-iconv": "*"
     },
     "autoload": {
         "psr-4": {

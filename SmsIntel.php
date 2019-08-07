@@ -303,7 +303,7 @@ class SmsIntel
                 $this->charset = $this->detectCharset($value);
             }
         } else {
-            $this->charset = HTTPS_CHARSET;
+            $this->charset = self::HTTPS_CHARSET;
         }
 
         if (strtolower($this->charset) != "utf-8") {
