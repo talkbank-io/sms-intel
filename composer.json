@@ -1,0 +1,16 @@
+{
+    "name": "talkbank/sms-intel",
+    "description": "wrapper for sms gate Intel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pavel Loginov",
+            "email": "ploginoff@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "ext-curl" : "*"
+    }
+}
